@@ -29,10 +29,25 @@ public class Hippo extends Pachyderm{
     @Override
     public void wakeUp(String time) {
 
+        StringBuffer wake = new StringBuffer("At ");
+        wake.append(time);
+        wake.append(", ");
+        wake.append(this.name);
+        wake.append(" the Hippo wakes up and slowly gets out of the water");
+
+        System.out.println(wake);
+
+        setAsleep(false);
+
     }
 
     @Override
-    public void Eat(String time) {
+    public void Roam(String time) {
+        StringBuffer roam = new StringBuffer(getName());
+        roam.append(" the hippo slowly wades in the water for  ");
+        roam.append(time);
+        roam.append(" minutes");
 
+        System.out.println(roam);
     }
 }
