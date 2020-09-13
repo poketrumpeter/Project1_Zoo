@@ -46,7 +46,7 @@ public class Dog extends Canine {
     @Override
     public void Eat(String time) {
         StringBuffer eat = new StringBuffer(this.name);
-        eat.append( "the dog happily and quickly consumes its food then smiles at the zookeeper at ");
+        eat.append( " the dog happily and quickly consumes its food then smiles at the zookeeper at ");
         eat.append(time);
 
         System.out.println(eat);
