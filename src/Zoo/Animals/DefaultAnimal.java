@@ -1,7 +1,7 @@
 package Zoo.Animals;
 
 abstract public class DefaultAnimal implements Animal {
-    private Boolean asleep; //Boolean to tell if an animal is asleep
+    private Boolean asleep = true; //Boolean to tell if an animal is asleep
 
     public Boolean getAsleep() {
         return asleep;
