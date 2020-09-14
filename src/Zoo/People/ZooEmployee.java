@@ -1,7 +1,7 @@
 package Zoo.People;
 
 // Abstract class zooEmployee
-abstract public class zooEmployee {
+abstract public class ZooEmployee {
     private String name; //name of the employee
     private String job; //name of the job employee has
     private int day; //day of zooEmployee working
@@ -10,7 +10,7 @@ abstract public class zooEmployee {
         return name;
     }
     
-    public void String setName(String name) {
+    public void  setName(String name) {
         this.name = name;
     }
     
@@ -18,7 +18,7 @@ abstract public class zooEmployee {
         return job;
     }
     
-    public void String setJob(String job) {
+    public void setJob(String job) {
         this.job = job;
     }
     
@@ -26,7 +26,7 @@ abstract public class zooEmployee {
         return day;
     }
     
-    public void String setDay(int day) {
+    public void setDay(int day) {
         this.day = day;
     }
 
