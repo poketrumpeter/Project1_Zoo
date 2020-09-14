@@ -2,23 +2,8 @@ package Zoo.Animals;
 
 public class Hippo extends Pachyderm{
 
-    private final String name;
-
     public Hippo(String name) {
-        if(name.startsWith("h") || name.startsWith("H")){
-            System.out.println(name + " is a great name for a Hippo");
-            this.name = name;
-        }
-        else{
-            System.out.println("A better name for a hippo would be Hector");
-            this.name = "Hector";
-
-        }
-    }
-
-    @Override
-    public String getName() {
-        return this.name;
+        super(name);
     }
 
     @Override
@@ -27,12 +12,17 @@ public class Hippo extends Pachyderm{
     }
 
     @Override
-    public void wakeUp(String time) {
+    public void makeNoise() {
+        StringBuffer grunt = new StringBuffer(getName());
+        grunt.append(" the hippo gives a low grunt");
 
-        StringBuffer wake = new StringBuffer("At ");
-        wake.append(time);
-        wake.append(", ");
-        wake.append(this.name);
+        System.out.println(grunt);
+    }
+
+    @Override
+    public void wakeUp() {
+
+        StringBuffer wake = new StringBuffer(getName());
         wake.append(" the Hippo wakes up and slowly gets out of the water");
 
         System.out.println(wake);
@@ -42,12 +32,12 @@ public class Hippo extends Pachyderm{
     }
 
     @Override
-    public void Roam(String time) {
+    public void Roam() {
         StringBuffer roam = new StringBuffer(getName());
-        roam.append(" the hippo slowly wades in the water for  ");
-        roam.append(time);
-        roam.append(" minutes");
+        roam.append(" the hippo slowly wades in the water");
 
         System.out.println(roam);
     }
+
+
 }

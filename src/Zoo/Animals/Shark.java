@@ -2,23 +2,8 @@ package Zoo.Animals;
 
 public class Shark extends Fish{
 
-    private final String name;
-
     public Shark(String name) {
-        if(name.startsWith("s") || name.startsWith("S")){
-            System.out.println(name + " is a great name for a shark");
-            this.name = name;
-        }
-        else{
-            System.out.println("A better for a shark would Sally");
-            this.name = "Sally";
-        }
-
-    }
-
-    @Override
-    public String getName() {
-        return this.name;
+        super(name);
     }
 
     @Override
@@ -27,12 +12,9 @@ public class Shark extends Fish{
     }
 
     @Override
-    public void wakeUp(String time) {
+    public void wakeUp() {
 
-        StringBuffer wake = new StringBuffer("At ");
-        wake.append(time);
-        wake.append(", ");
-        wake.append(this.name);
+        StringBuffer wake = new StringBuffer(getName());
         wake.append(" the shark smells blood in the water and wakes up to find fresh food");
 
         System.out.println(wake);
@@ -41,15 +23,21 @@ public class Shark extends Fish{
     }
 
     @Override
-    public void Eat(String time) {
+    public void Eat() {
 
-        StringBuffer eat = new StringBuffer("At ");
-        eat.append(time);
-        eat.append(", ");
-        eat.append(this.name);
+        StringBuffer eat = new StringBuffer(getName());
         eat.append(" the shark chases and devours the raw meat, cautiously placed in its tank");
 
         System.out.println(eat);
 
+    }
+
+    @Override
+    public void makeNoise() {
+        StringBuffer silence = new StringBuffer(getName());
+        silence.append(" the shark silently stares at the Zookeeper because as the " +
+                "zookeeper knows, sharks dont make sound");
+
+        System.out.println(silence);
     }
 }
