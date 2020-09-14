@@ -123,6 +123,15 @@ public class Zoo {
 
             //Now that the Zookeeper has Arrived, he can wake the animals
 
+            //Zookeeper.arrives, check to make sure he arrives
+            //If Zookeeper.arrives = "whatever", then continue
+            //if he hasnt arirved wait
+
+            //Zookeeper.rollCall
+
+
+            //Zookeeper.wakeAnimals
+
 
         }
 
