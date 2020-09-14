@@ -4,23 +4,8 @@ import com.sun.org.apache.xpath.internal.operations.Bool;
 
 public class Wolf extends Canine{
 
-    private final String name; //name is final because we dont want to change it after setting it
-
     public Wolf(String name) {
-        if(name.startsWith("w") || name.startsWith("W")){ //Check to see if name starts with w
-            this.name = name; //initializes name of object
-            System.out.println(this.name + " is a great name for a Wolf");
-        }
-        else{
-            System.out.println("A better name for a Wolf would be Wally");
-            this.name = "Wally"; //initializes a better default name for object
-        }
-
-    }
-
-    @Override //
-    public String getName() {
-        return this.name;
+        super(name);
     }
 
     @Override
@@ -29,10 +14,9 @@ public class Wolf extends Canine{
     }
 
     @Override
-    public void wakeUp(String time) {
-        StringBuffer wake = new StringBuffer(this.name);
-        wake.append(" the wolf wakes up and snarls at the zookeeper at ");
-        wake.append(time);
+    public void wakeUp() {
+        StringBuffer wake = new StringBuffer(getName());
+        wake.append(" the wolf wakes up and snarls at the zookeeper at");
 
         System.out.println(wake);
 
@@ -40,13 +24,19 @@ public class Wolf extends Canine{
     }
 
     @Override //Overridden function of Eat for the Wolf, Will output a string to console
-    public void Eat(String time) {
+    public void Eat() {
 
-        StringBuffer eat = new StringBuffer(this.name);
-        eat.append(" ferociously devours his meals while eyeing the zookeeper at ");
-        eat.append(time);
-
+        StringBuffer eat = new StringBuffer(getName());
+        eat.append(" ferociously devours his meals while eyeing the zookeeper");
         System.out.println(eat);
 
+    }
+
+    @Override
+    public void makeNoise() {
+        StringBuffer howl = new StringBuffer(getName());
+        howl.append(" the wolf howls at the zookeeper");
+
+        System.out.println(howl);
     }
 }

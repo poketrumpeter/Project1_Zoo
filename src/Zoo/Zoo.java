@@ -3,25 +3,32 @@ package Zoo;
 import Zoo.Animals.*;
 import Zoo.People.*;
 
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Zoo {
 
-    public static void main(String[] args) { //Main Zoo Implementation for Project 1
+    public static void main(String[] args) throws FileNotFoundException { //Main Zoo Implementation for Project 1
+
+        PrintStream originalOutput = System.out;
+        PrintStream fileOutput = new PrintStream("./dayatthezoo.out");
+
+        System.setOut(fileOutput);
 
         //First Before doing anything, we need to create our animals that will exist in the Zoo.
         //Also make an animal list object to contain all our animals
         System.out.println("Welcome to the new Age Zoo!(Working Title)");
 
-        ArrayList<Animal> animals = new ArrayList<Animal>();
+        ArrayList<Animal> animals = new ArrayList<>();
 
 
         System.out.println("Receiving Animal for the new Zoo");
         System.out.println();
 
         //Adding Dogs to the Zoo
-        Animal dog1 = new Dog("Cleo"); //Should default name of Dog to Darren
+        Animal dog1 = new Dog("Darren"); //Should default name of Dog to Darren
         Animal dog2 = new Dog("Dhalia");
 
         animals.add(dog1);
@@ -71,7 +78,7 @@ public class Zoo {
 
         //Adding Hippos to the Zoo
         Animal hippo1 = new Hippo("Hilda");
-        Animal hippo2 = new Hippo("Samantha"); //Name should change to Hector
+        Animal hippo2 = new Hippo("Harry"); //Name should change to Hector
 
         animals.add(hippo1);
         animals.add(hippo2);
@@ -84,23 +91,24 @@ public class Zoo {
         animals.add(shark2);
 
         //Adding Clownfish to the Zoo
-        Animal clownfish1 = new ClownFish("Sully"); //Name should change to Carly
+        Animal clownfish1 = new ClownFish("Carla"); //Name should change to Carly
         Animal clownfish2 = new ClownFish("Christie");
 
         animals.add(clownfish1);
         animals.add(clownfish2);
 
-        System.out.println();
         System.out.println("There are now " + animals.size() + " animals in the zoo!!");
 
         //So now that we have populated the zoo with animals, we can create a zooKeeper to tend to them
 
+        ZooKeeper zooKeeper = new ZooKeeper("Fester");
 
         //Great the zookeeper has been made, now let's give them stuff to do!
 
         //Take in User input to see how many days we are going to look at this zoo.
 
         System.out.println("how many Days would you like to spend at the zoo?");
+        originalOutput.println("how many days");
 
         Scanner input = new Scanner(System.in);
 
@@ -118,19 +126,72 @@ public class Zoo {
             //Print out string indicating time and day
 
             System.out.println("Welcome to the Zoo! It is now " + time + " on day: " + (i+1) + "!");
+            System.out.println();
 
             //Zookeeper arrives, Every 4th day, the zookeeper will arrive late
 
+            zooKeeper.setDay(i+1);
+            zooKeeper.arrive(time);
+
+            System.out.println();
             //Now that the Zookeeper has Arrived, he can wake the animals
+
 
             //Zookeeper.arrives, check to make sure he arrives
             //If Zookeeper.arrives = "whatever", then continue
             //if he hasnt arirved wait
 
-            //Zookeeper.rollCall
 
+            //Time is now 8:30
+
+            time = "8:30 AM";
 
             //Zookeeper.wakeAnimals
+
+            zooKeeper.wakeAnimals(animals, time); //Zookeeper goes to wake up animals and give them the Wake up Command
+
+
+            //time is not 10:00
+            time = "10:00 AM";
+
+            //Zookeeper.rollCall
+
+            zooKeeper.rollCall(animals, time);
+
+            //Zookeeper feeds animals at noon
+
+            time = "12:00 PM";
+
+            zooKeeper.feedAnimals(animals, time);
+
+            //Zookeeper Exercises the Animals at 2:30
+            time = "2:30 PM";
+
+            zooKeeper.exerciseAnimals(animals, time);
+
+            //Zookeeper will put animals to sleep at 5:30 before leaving
+            time = "5:30 PM";
+
+            zooKeeper.sleepAnimals(animals, time);
+
+            System.out.println();
+
+            //All animals are asleep now so the Zookeeper can leave for the day
+            System.out.println(zooKeeper.getName() + " has completed all tasks. They leave the zoo and " +
+                    "lock up for the night");
+
+            System.out.println();
+
+            //Ask user if they would like to go to the zoo another day
+
+            System.out.println("Would you like to spend another day at the zoo? reply yes or no");
+            originalOutput.println("anotherDay?");
+
+            String response = input.next();
+
+            if (response.equals("yes") || response.equals("y") && days != 6){}
+
+            else{ break;}
 
 
         }

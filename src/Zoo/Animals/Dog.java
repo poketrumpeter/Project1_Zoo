@@ -1,28 +1,11 @@
 package Zoo.Animals;
 
+import java.util.Random;
+
 public class Dog extends Canine {
 
-    private final String name; //Every Dog will have a name
-
-    public Dog(String name) { //constructor to confirm good name for dog
-
-
-        if (name.startsWith("d") || name.startsWith("D")){
-            System.out.println(name + " is a great name for a Dog");
-            this.name = name;
-        }
-        else{
-            System.out.println("A better name for a dog would be Darren");
-            this.name = "Darren";
-        }
-        setAsleep(true);
-
-    }
-
-    //Overridden function for GetName in order to get the name of the Dog
-    @Override
-    public String getName() {
-        return this.name;
+    public Dog(String name) {
+        super(name);
     }
 
     //Overridden Function to return Dog as the Species
@@ -31,12 +14,11 @@ public class Dog extends Canine {
         return "dog";
     }
 
-    //Overridden function to Wake up the Dog when the Zookeep er goes to wake the animals
+    //Overridden function to Wake up the Dog when the Zookeeper goes to wake the animals
     @Override
-    public void wakeUp(String time) {
-        StringBuffer wake = new StringBuffer(name);
-        wake.append(" the dog wakes up and barks happily at ");
-        wake.append(time);
+    public void wakeUp() {
+        StringBuffer wake = new StringBuffer(getName());
+        wake.append(" the dog wakes up and barks happily");
 
         System.out.println(wake);
 
@@ -44,14 +26,46 @@ public class Dog extends Canine {
     }
 
     @Override
-    public void Eat(String time) {
-        StringBuffer eat = new StringBuffer(this.name);
-        eat.append( " the dog happily and quickly consumes its food then smiles at the zookeeper at ");
-        eat.append(time);
+    public void Eat() {
+        StringBuffer eat = new StringBuffer(getName());
+        eat.append( " the dog happily and quickly consumes its food then smiles at the zookeeper");
 
         System.out.println(eat);
 
+    }
 
+    public void Dig(){
+        StringBuffer dig = new StringBuffer(getName());
+        dig.append(" the dog eagerly digs not caring what the zookeeper is telling it");
 
+        System.out.println(dig);
+    }
+
+    @Override
+    public void makeNoise() {
+        StringBuffer bark = new StringBuffer(getName());
+        bark.append(" the dog barks");
+
+        System.out.println(bark);
+    }
+
+    @Override
+    public Boolean Misbehave() { //Need to randomly generate number to then see if dog roams or digs
+
+        //25% chance the dog will dig instead of roaming
+        Random randomNum = new Random();
+
+        int dogChoice = randomNum.nextInt(3);
+        if(dogChoice == 0) {// 1/4 possibilities, so we call dog Dig
+            Dig();
+
+            System.out.println("The zookeeper will need to try again!");
+            return false; //indicate that dog has not roamed yet
+        }
+        else {
+            //either 1, 2, 0r 3
+            Roam();
+            return true;
+        }
     }
 }
