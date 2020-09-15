@@ -1,5 +1,13 @@
 package Zoo.Animals;
 
+/*
+ Clear instance of ABSTRACTION. This is achieved through abstract classes and
+ interfaces, in which only the functionality will be provided to the user. In
+ this case, the user only knows the method name to call and what they do, but
+ do not know the actual implementation an animal might give it.
+*/
+
+
 public interface Animal {
 
     String getName(); // method to grab the name of an animal

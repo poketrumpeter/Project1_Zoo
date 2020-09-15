@@ -1,7 +1,19 @@
 package Zoo.People;
 
+/*
+ Clear instance of an ABSTRACT CLASS. It cannot be instantiated
+ and must be subclassed to be instantiated, ie with zooKeeper.
+*/
+
 // Abstract class zooEmployee
 abstract public class ZooEmployee {
+
+    /*
+    Clear instance of ENCAPSULATION. This is achieved through declaring
+    variables of a class as private, and to provide access to these
+    variables through getter and setter methods.
+     */
+
     private String name; //name of the employee
     private String job; //name of the job employee has
     private Boolean arrived;
@@ -10,6 +22,7 @@ abstract public class ZooEmployee {
     public ZooEmployee(String name, String job) {
         this.name = name;
         this.job = job;
+        this.arrived = false;
     }
 
     public String getName() {
@@ -37,6 +50,8 @@ abstract public class ZooEmployee {
         arrive.append(getDay());
         arrive.append(" at ");
         arrive.append(time);
+
+        arrived = true;
 
         System.out.println(arrive);
 
