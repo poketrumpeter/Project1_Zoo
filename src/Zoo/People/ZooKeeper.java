@@ -3,6 +3,7 @@ package Zoo.People;
 import Zoo.Animals.Animal;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 // subclass zooKeeper
 public class ZooKeeper extends ZooEmployee {
@@ -15,7 +16,7 @@ public class ZooKeeper extends ZooEmployee {
     //Will output that the Zookeeper is going to wake the animals at a specific time.
     //It will then iterate through a list of animals and call the animals wake up function
 
-    public void  wakeAnimals(ArrayList<Animal> animalList, String time) {
+    public void  wakeAnimals(Collection<Animal> animalList, String time) {
         StringBuffer wake = new StringBuffer(getName());
         wake.append(" goes to wake the animals at ");
         wake.append(time);
@@ -37,7 +38,7 @@ public class ZooKeeper extends ZooEmployee {
     }
     
     //This method will roll call the animals and calls animal's getName method by returning a string command
-    public void rollCall(ArrayList<Animal> animalList, String time) {
+    public void rollCall(Collection<Animal> animalList, String time) {
         StringBuffer rollcall = new StringBuffer(getName());
         rollcall.append(" takes attendance of the animals at ");
         rollcall.append(time);
@@ -59,7 +60,7 @@ public class ZooKeeper extends ZooEmployee {
     }
     
     //This method will feed the animals and calls animal's Eat method by returning a string command
-    public void feedAnimals(ArrayList<Animal> animalList, String time) {
+    public void feedAnimals(Collection<Animal> animalList, String time) {
         StringBuffer feed = new StringBuffer(getName());
         feed.append(" feeds the animals at ");
         feed.append(time);
@@ -79,7 +80,7 @@ public class ZooKeeper extends ZooEmployee {
     }
     
     //This method will exercise the animals and calls animal's Roam or  method by returning a string command
-    public void exerciseAnimals(ArrayList<Animal> animalList, String time) {
+    public void exerciseAnimals(Collection<Animal> animalList, String time) {
         StringBuffer exercise = new StringBuffer(getName());
         exercise.append(" lets the animals roam free at ");
         exercise.append(time);
@@ -122,7 +123,7 @@ public class ZooKeeper extends ZooEmployee {
     }
     
     //This method will have the zookeeper put all the animals to sleep
-    public void sleepAnimals(ArrayList<Animal> animalList, String time) {
+    public void sleepAnimals(Collection<Animal> animalList, String time) {
         StringBuffer sleep = new StringBuffer(getName());
         sleep.append(" puts the animals to sleep at ");
         sleep.append(time);

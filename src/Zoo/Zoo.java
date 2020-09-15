@@ -184,24 +184,13 @@ public class Zoo {
 
             //Ask user if they would like to go to the zoo another day
 
+            /*
             System.out.println("Would you like to spend another day at the zoo? reply yes or no");
             originalOutput.println("anotherDay?");
 
             String response = input.next();
-
-            if (response.equals("yes") || response.equals("y") && days != 6){}
-
-            else{ break;}
-
+            */
 
         }
-
-
-
-
-
-
-
-
     }
 }
