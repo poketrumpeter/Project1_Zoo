@@ -21,11 +21,28 @@ public class Zoo {
         //Also make an animal list object to contain all our animals
         System.out.println("Welcome to the new Age Zoo!(Working Title)");
 
+        /*
+        Clear instance of POLYMORPHISM. This is achieved when an object is able to take
+        on many forms, usually when a parent class is used to refer to a child class
+        object. This is shown by how we instantiate an array list of animals, but
+        populate this array list with different animals, ie Dogs, Wolfs, Cats, etc.
+         */
+
         ArrayList<Animal> animals = new ArrayList<>();
 
 
         System.out.println("Receiving Animal for the new Zoo");
         System.out.println();
+
+        /*
+        Clear instance of Identity. Identity is contained within an object as a property
+        of that object to distinguish two instances of the same object from one another.
+        This is shown by the two instances of each animal class, ie Darren the Dog and
+        Dhalia the Dog, and may have the same method implementations (behaviors, state,
+        etc.), but not 1 Dog nor the same Dog. They are each a unique instance of a Dog
+        class and therefore treated as such (has their own memory location, can act
+        separately and independently of one another, etc.).
+        */
 
         //Adding Dogs to the Zoo
         Animal dog1 = new Dog("Darren"); //Should default name of Dog to Darren
