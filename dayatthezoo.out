@@ -196,11 +196,11 @@ Christie the clownfish nibbles on the fish food the zookeeper gives it
 Fester lets the animals roam free at 2:30 PM
 
 Fester goes to exercise Darren the dog
-Darren the dog eagerly digs not caring what the zookeeper is telling it
-The zookeeper will need to try again!
 Darren the dog runs around its enclosure
 
 Fester goes to exercise Dhalia the dog
+Dhalia ignores the roam command and eagerly digs
+The zookeeper will need to try again!
 Dhalia the dog runs around its enclosure
 
 Fester goes to exercise Willy the wolf
@@ -228,9 +228,15 @@ Fester goes to exercise Thalia the tiger
 Thalia The tiger walks gracefully around its enclosure
 
 Fester goes to exercise Ryan the rhino
+Ryan the rhino ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
 Ryan the rhino defensively runs around its enclosure wary of the Zookeeper
 
 Fester goes to exercise Rachel the rhino
+Rachel the rhino ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
+Rachel the rhino ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
 Rachel the rhino defensively runs around its enclosure wary of the Zookeeper
 
 Fester goes to exercise Ella the elephant
@@ -272,13 +278,11 @@ Fester goes to put Wanda the wolf to sleep
 Wanda the wolf goes to sleep with it's friends dreaming happy dreams
 
 Fester goes to put Cleo the cat to sleep
-Cleo The cat walks gracefully around its enclosure
+In defiance of the zookeepers command to sleep, Cleo The cat walks gracefully around its enclosure
 The zookeeper will need to try again
-Cleo The cat walks gracefully around its enclosure
-The zookeeper will need to try again
-Cleo The cat walks gracefully around its enclosure
-The zookeeper will need to try again
-Cleo the cat purrs quietly at the zookeeper
+In defiance of the zookeepers command to sleep, Cleo the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Cleo the cat purrs quietly at the zookeeper
 The zookeeper needs to try again
 Cleo the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
@@ -286,24 +290,30 @@ Fester goes to put Carlos the cat to sleep
 Carlos the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Lex the lion to sleep
-Lex the lion roars at the zookeeper
-The zookeeper needs to try again
-Lex The lion walks gracefully around its enclosure
-The zookeeper will need to try again
 Lex the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Leah the lion to sleep
+In defiance of the zookeepers command to sleep, Leah the lion roars at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Leah the lion roars at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Leah the lion roars at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Leah The lion walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Leah The lion walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Leah The lion walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Leah The lion walks gracefully around its enclosure
+The zookeeper will need to try again
 Leah the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Terry the tiger to sleep
-Terry The tiger walks gracefully around its enclosure
-The zookeeper will need to try again
 Terry the tiger finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Thalia the tiger to sleep
-Thalia the tiger growls at the zookeeper
-The zookeeper needs to try again
-Thalia The tiger walks gracefully around its enclosure
+In defiance of the zookeepers command to sleep, Thalia The tiger walks gracefully around its enclosure
 The zookeeper will need to try again
 Thalia the tiger finds a nice spot, gets in a cozy position and falls asleep alone
 
@@ -340,7 +350,9 @@ Christie the clownfish settles down in its anemone and falls asleep
 
 Fester has completed all tasks. They leave the zoo and lock up for the night
 
-Would you like to spend another day at the zoo? reply yes or no
+
+
+
 Welcome to the Zoo! It is now 8:00 AM on day: 2!
 
 Fester the Zookeeper arrives at Zoo on day 2 at 8:00 AM
@@ -534,10 +546,6 @@ Christie the clownfish nibbles on the fish food the zookeeper gives it
 Fester lets the animals roam free at 2:30 PM
 
 Fester goes to exercise Darren the dog
-Darren the dog eagerly digs not caring what the zookeeper is telling it
-The zookeeper will need to try again!
-Darren the dog eagerly digs not caring what the zookeeper is telling it
-The zookeeper will need to try again!
 Darren the dog runs around its enclosure
 
 Fester goes to exercise Dhalia the dog
@@ -577,11 +585,15 @@ Fester goes to exercise Ella the elephant
 Ella the elephant slowly walks around its enclosure looking to play with its friends
 
 Fester goes to exercise Eddie the elephant
+Eddie the elephant ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
+Eddie the elephant ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
+Eddie the elephant ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
 Eddie the elephant slowly walks around its enclosure looking to play with its friends
 
 Fester goes to exercise Hilda the hippo
-Hilda the hippo charges at the zookeeper
-The zookeeper will need to try again!
 Hilda the hippo slowly wades in the water
 
 Fester goes to exercise Harry the hippo
@@ -614,55 +626,45 @@ Fester goes to put Wanda the wolf to sleep
 Wanda the wolf goes to sleep with it's friends dreaming happy dreams
 
 Fester goes to put Cleo the cat to sleep
+In defiance of the zookeepers command to sleep, Cleo the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Cleo The cat walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Cleo The cat walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Cleo the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Cleo The cat walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Cleo the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Cleo The cat walks gracefully around its enclosure
+The zookeeper will need to try again
 Cleo the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Carlos the cat to sleep
 Carlos the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Lex the lion to sleep
+In defiance of the zookeepers command to sleep, Lex The lion walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Lex The lion walks gracefully around its enclosure
+The zookeeper will need to try again
 Lex the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Leah the lion to sleep
-Leah The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Leah the lion roars at the zookeeper
-The zookeeper needs to try again
-Leah The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Leah the lion roars at the zookeeper
-The zookeeper needs to try again
-Leah the lion roars at the zookeeper
-The zookeeper needs to try again
-Leah The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Leah The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Leah the lion roars at the zookeeper
-The zookeeper needs to try again
-Leah The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Leah The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Leah the lion roars at the zookeeper
-The zookeeper needs to try again
-Leah the lion roars at the zookeeper
-The zookeeper needs to try again
 Leah the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Terry the tiger to sleep
-Terry The tiger walks gracefully around its enclosure
-The zookeeper will need to try again
-Terry the tiger growls at the zookeeper
+In defiance of the zookeepers command to sleep, Terry the tiger growls at the zookeeper
 The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Terry the tiger growls at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Terry The tiger walks gracefully around its enclosure
+The zookeeper will need to try again
 Terry the tiger finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Thalia the tiger to sleep
-Thalia the tiger growls at the zookeeper
-The zookeeper needs to try again
-Thalia the tiger growls at the zookeeper
-The zookeeper needs to try again
-Thalia the tiger growls at the zookeeper
-The zookeeper needs to try again
 Thalia the tiger finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Ryan the rhino to sleep
@@ -698,7 +700,9 @@ Christie the clownfish settles down in its anemone and falls asleep
 
 Fester has completed all tasks. They leave the zoo and lock up for the night
 
-Would you like to spend another day at the zoo? reply yes or no
+
+
+
 Welcome to the Zoo! It is now 8:00 AM on day: 3!
 
 Fester the Zookeeper arrives at Zoo on day 3 at 8:00 AM
@@ -892,11 +896,11 @@ Christie the clownfish nibbles on the fish food the zookeeper gives it
 Fester lets the animals roam free at 2:30 PM
 
 Fester goes to exercise Darren the dog
-Darren the dog eagerly digs not caring what the zookeeper is telling it
-The zookeeper will need to try again!
 Darren the dog runs around its enclosure
 
 Fester goes to exercise Dhalia the dog
+Dhalia ignores the roam command and eagerly digs
+The zookeeper will need to try again!
 Dhalia the dog runs around its enclosure
 
 Fester goes to exercise Willy the wolf
@@ -924,6 +928,8 @@ Fester goes to exercise Thalia the tiger
 Thalia The tiger walks gracefully around its enclosure
 
 Fester goes to exercise Ryan the rhino
+Ryan the rhino ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
 Ryan the rhino defensively runs around its enclosure wary of the Zookeeper
 
 Fester goes to exercise Rachel the rhino
@@ -933,6 +939,8 @@ Fester goes to exercise Ella the elephant
 Ella the elephant slowly walks around its enclosure looking to play with its friends
 
 Fester goes to exercise Eddie the elephant
+Eddie the elephant ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
 Eddie the elephant slowly walks around its enclosure looking to play with its friends
 
 Fester goes to exercise Hilda the hippo
@@ -971,72 +979,52 @@ Fester goes to put Cleo the cat to sleep
 Cleo the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Carlos the cat to sleep
-Carlos The cat walks gracefully around its enclosure
+In defiance of the zookeepers command to sleep, Carlos the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Carlos the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Carlos The cat walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Carlos The cat walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Carlos The cat walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Carlos The cat walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Carlos The cat walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Carlos The cat walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Carlos the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Carlos the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Carlos The cat walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Carlos the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Carlos the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Carlos The cat walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Carlos The cat walks gracefully around its enclosure
 The zookeeper will need to try again
 Carlos the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Lex the lion to sleep
-Lex the lion roars at the zookeeper
-The zookeeper needs to try again
-Lex the lion roars at the zookeeper
-The zookeeper needs to try again
-Lex The lion walks gracefully around its enclosure
-The zookeeper will need to try again
 Lex the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Leah the lion to sleep
-Leah The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Leah The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Leah The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Leah the lion roars at the zookeeper
-The zookeeper needs to try again
-Leah the lion roars at the zookeeper
-The zookeeper needs to try again
-Leah The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Leah the lion roars at the zookeeper
-The zookeeper needs to try again
-Leah the lion roars at the zookeeper
-The zookeeper needs to try again
-Leah the lion roars at the zookeeper
-The zookeeper needs to try again
 Leah the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Terry the tiger to sleep
-Terry the tiger growls at the zookeeper
+In defiance of the zookeepers command to sleep, Terry the tiger growls at the zookeeper
 The zookeeper needs to try again
-Terry the tiger growls at the zookeeper
-The zookeeper needs to try again
-Terry The tiger walks gracefully around its enclosure
+In defiance of the zookeepers command to sleep, Terry The tiger walks gracefully around its enclosure
 The zookeeper will need to try again
-Terry the tiger growls at the zookeeper
-The zookeeper needs to try again
-Terry the tiger growls at the zookeeper
-The zookeeper needs to try again
 Terry the tiger finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Thalia the tiger to sleep
-Thalia The tiger walks gracefully around its enclosure
-The zookeeper will need to try again
-Thalia the tiger growls at the zookeeper
-The zookeeper needs to try again
-Thalia The tiger walks gracefully around its enclosure
-The zookeeper will need to try again
-Thalia The tiger walks gracefully around its enclosure
-The zookeeper will need to try again
-Thalia The tiger walks gracefully around its enclosure
-The zookeeper will need to try again
-Thalia The tiger walks gracefully around its enclosure
-The zookeeper will need to try again
-Thalia the tiger growls at the zookeeper
-The zookeeper needs to try again
-Thalia The tiger walks gracefully around its enclosure
-The zookeeper will need to try again
-Thalia the tiger growls at the zookeeper
-The zookeeper needs to try again
 Thalia the tiger finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Ryan the rhino to sleep
@@ -1072,7 +1060,9 @@ Christie the clownfish settles down in its anemone and falls asleep
 
 Fester has completed all tasks. They leave the zoo and lock up for the night
 
-Would you like to spend another day at the zoo? reply yes or no
+
+
+
 Welcome to the Zoo! It is now 8:00 AM on day: 4!
 
 Fester the Zookeeper arrives at Zoo on day 4 at 8:00 AM
@@ -1266,6 +1256,8 @@ Christie the clownfish nibbles on the fish food the zookeeper gives it
 Fester lets the animals roam free at 2:30 PM
 
 Fester goes to exercise Darren the dog
+Darren ignores the roam command and eagerly digs
+The zookeeper will need to try again!
 Darren the dog runs around its enclosure
 
 Fester goes to exercise Dhalia the dog
@@ -1296,6 +1288,8 @@ Fester goes to exercise Thalia the tiger
 Thalia The tiger walks gracefully around its enclosure
 
 Fester goes to exercise Ryan the rhino
+Ryan the rhino ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
 Ryan the rhino defensively runs around its enclosure wary of the Zookeeper
 
 Fester goes to exercise Rachel the rhino
@@ -1311,8 +1305,6 @@ Fester goes to exercise Hilda the hippo
 Hilda the hippo slowly wades in the water
 
 Fester goes to exercise Harry the hippo
-Harry the hippo charges at the zookeeper
-The zookeeper will need to try again!
 Harry the hippo slowly wades in the water
 
 Fester goes to exercise Sally the shark
@@ -1342,24 +1334,28 @@ Fester goes to put Wanda the wolf to sleep
 Wanda the wolf goes to sleep with it's friends dreaming happy dreams
 
 Fester goes to put Cleo the cat to sleep
-Cleo The cat walks gracefully around its enclosure
+In defiance of the zookeepers command to sleep, Cleo The cat walks gracefully around its enclosure
 The zookeeper will need to try again
 Cleo the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Carlos the cat to sleep
+In defiance of the zookeepers command to sleep, Carlos the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
 Carlos the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Lex the lion to sleep
-Lex the lion roars at the zookeeper
+In defiance of the zookeepers command to sleep, Lex the lion roars at the zookeeper
 The zookeeper needs to try again
-Lex The lion walks gracefully around its enclosure
-The zookeeper will need to try again
 Lex the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Leah the lion to sleep
 Leah the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Terry the tiger to sleep
+In defiance of the zookeepers command to sleep, Terry The tiger walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Terry The tiger walks gracefully around its enclosure
+The zookeeper will need to try again
 Terry the tiger finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Thalia the tiger to sleep
@@ -1398,7 +1394,9 @@ Christie the clownfish settles down in its anemone and falls asleep
 
 Fester has completed all tasks. They leave the zoo and lock up for the night
 
-Would you like to spend another day at the zoo? reply yes or no
+
+
+
 Welcome to the Zoo! It is now 8:00 AM on day: 5!
 
 Fester the Zookeeper arrives at Zoo on day 5 at 8:00 AM
@@ -1595,6 +1593,8 @@ Fester goes to exercise Darren the dog
 Darren the dog runs around its enclosure
 
 Fester goes to exercise Dhalia the dog
+Dhalia ignores the roam command and eagerly digs
+The zookeeper will need to try again!
 Dhalia the dog runs around its enclosure
 
 Fester goes to exercise Willy the wolf
@@ -1622,27 +1622,21 @@ Fester goes to exercise Thalia the tiger
 Thalia The tiger walks gracefully around its enclosure
 
 Fester goes to exercise Ryan the rhino
-Ryan the rhino charges at the zookeeper
-The zookeeper will need to try again!
 Ryan the rhino defensively runs around its enclosure wary of the Zookeeper
 
 Fester goes to exercise Rachel the rhino
-Rachel the rhino charges at the zookeeper
-The zookeeper will need to try again!
 Rachel the rhino defensively runs around its enclosure wary of the Zookeeper
 
 Fester goes to exercise Ella the elephant
-Ella the elephant charges at the zookeeper
-The zookeeper will need to try again!
 Ella the elephant slowly walks around its enclosure looking to play with its friends
 
 Fester goes to exercise Eddie the elephant
+Eddie the elephant ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
 Eddie the elephant slowly walks around its enclosure looking to play with its friends
 
 Fester goes to exercise Hilda the hippo
-Hilda the hippo charges at the zookeeper
-The zookeeper will need to try again!
-Hilda the hippo charges at the zookeeper
+Hilda the hippo ignores the command to roam and charges at the zookeeper
 The zookeeper will need to try again!
 Hilda the hippo slowly wades in the water
 
@@ -1676,28 +1670,26 @@ Fester goes to put Wanda the wolf to sleep
 Wanda the wolf goes to sleep with it's friends dreaming happy dreams
 
 Fester goes to put Cleo the cat to sleep
+In defiance of the zookeepers command to sleep, Cleo The cat walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Cleo The cat walks gracefully around its enclosure
+The zookeeper will need to try again
 Cleo the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Carlos the cat to sleep
-Carlos The cat walks gracefully around its enclosure
-The zookeeper will need to try again
-Carlos The cat walks gracefully around its enclosure
-The zookeeper will need to try again
-Carlos the cat purrs quietly at the zookeeper
-The zookeeper needs to try again
-Carlos The cat walks gracefully around its enclosure
-The zookeeper will need to try again
-Carlos The cat walks gracefully around its enclosure
-The zookeeper will need to try again
 Carlos the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Lex the lion to sleep
 Lex the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Leah the lion to sleep
-Leah the lion roars at the zookeeper
+In defiance of the zookeepers command to sleep, Leah the lion roars at the zookeeper
 The zookeeper needs to try again
-Leah The lion walks gracefully around its enclosure
+In defiance of the zookeepers command to sleep, Leah The lion walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Leah the lion roars at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Leah The lion walks gracefully around its enclosure
 The zookeeper will need to try again
 Leah the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
@@ -1705,6 +1697,10 @@ Fester goes to put Terry the tiger to sleep
 Terry the tiger finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Thalia the tiger to sleep
+In defiance of the zookeepers command to sleep, Thalia The tiger walks gracefully around its enclosure
+The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Thalia the tiger growls at the zookeeper
+The zookeeper needs to try again
 Thalia the tiger finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Ryan the rhino to sleep
@@ -1740,7 +1736,9 @@ Christie the clownfish settles down in its anemone and falls asleep
 
 Fester has completed all tasks. They leave the zoo and lock up for the night
 
-Would you like to spend another day at the zoo? reply yes or no
+
+
+
 Welcome to the Zoo! It is now 8:00 AM on day: 6!
 
 Fester the Zookeeper arrives at Zoo on day 6 at 8:00 AM
@@ -1937,6 +1935,8 @@ Fester goes to exercise Darren the dog
 Darren the dog runs around its enclosure
 
 Fester goes to exercise Dhalia the dog
+Dhalia ignores the roam command and eagerly digs
+The zookeeper will need to try again!
 Dhalia the dog runs around its enclosure
 
 Fester goes to exercise Willy the wolf
@@ -1964,31 +1964,35 @@ Fester goes to exercise Thalia the tiger
 Thalia The tiger walks gracefully around its enclosure
 
 Fester goes to exercise Ryan the rhino
-Ryan the rhino charges at the zookeeper
-The zookeeper will need to try again!
-Ryan the rhino charges at the zookeeper
-The zookeeper will need to try again!
-Ryan the rhino charges at the zookeeper
-The zookeeper will need to try again!
 Ryan the rhino defensively runs around its enclosure wary of the Zookeeper
 
 Fester goes to exercise Rachel the rhino
 Rachel the rhino defensively runs around its enclosure wary of the Zookeeper
 
 Fester goes to exercise Ella the elephant
-Ella the elephant charges at the zookeeper
+Ella the elephant ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
+Ella the elephant ignores the command to roam and charges at the zookeeper
 The zookeeper will need to try again!
 Ella the elephant slowly walks around its enclosure looking to play with its friends
 
 Fester goes to exercise Eddie the elephant
+Eddie the elephant ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
 Eddie the elephant slowly walks around its enclosure looking to play with its friends
 
 Fester goes to exercise Hilda the hippo
-Hilda the hippo charges at the zookeeper
+Hilda the hippo ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
+Hilda the hippo ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
+Hilda the hippo ignores the command to roam and charges at the zookeeper
 The zookeeper will need to try again!
 Hilda the hippo slowly wades in the water
 
 Fester goes to exercise Harry the hippo
+Harry the hippo ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
 Harry the hippo slowly wades in the water
 
 Fester goes to exercise Sally the shark
@@ -2018,60 +2022,22 @@ Fester goes to put Wanda the wolf to sleep
 Wanda the wolf goes to sleep with it's friends dreaming happy dreams
 
 Fester goes to put Cleo the cat to sleep
-Cleo The cat walks gracefully around its enclosure
-The zookeeper will need to try again
-Cleo The cat walks gracefully around its enclosure
-The zookeeper will need to try again
 Cleo the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Carlos the cat to sleep
-Carlos the cat purrs quietly at the zookeeper
-The zookeeper needs to try again
-Carlos the cat purrs quietly at the zookeeper
-The zookeeper needs to try again
 Carlos the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Lex the lion to sleep
-Lex the lion roars at the zookeeper
-The zookeeper needs to try again
-Lex The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Lex The lion walks gracefully around its enclosure
-The zookeeper will need to try again
 Lex the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Leah the lion to sleep
-Leah The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Leah The lion walks gracefully around its enclosure
-The zookeeper will need to try again
-Leah the lion roars at the zookeeper
+In defiance of the zookeepers command to sleep, Leah the lion roars at the zookeeper
 The zookeeper needs to try again
-Leah the lion roars at the zookeeper
-The zookeeper needs to try again
-Leah The lion walks gracefully around its enclosure
+In defiance of the zookeepers command to sleep, Leah The lion walks gracefully around its enclosure
 The zookeeper will need to try again
 Leah the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Terry the tiger to sleep
-Terry The tiger walks gracefully around its enclosure
-The zookeeper will need to try again
-Terry the tiger growls at the zookeeper
-The zookeeper needs to try again
-Terry The tiger walks gracefully around its enclosure
-The zookeeper will need to try again
-Terry the tiger growls at the zookeeper
-The zookeeper needs to try again
-Terry the tiger growls at the zookeeper
-The zookeeper needs to try again
-Terry The tiger walks gracefully around its enclosure
-The zookeeper will need to try again
-Terry the tiger growls at the zookeeper
-The zookeeper needs to try again
-Terry the tiger growls at the zookeeper
-The zookeeper needs to try again
-Terry the tiger growls at the zookeeper
-The zookeeper needs to try again
 Terry the tiger finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Thalia the tiger to sleep
@@ -2110,7 +2076,9 @@ Christie the clownfish settles down in its anemone and falls asleep
 
 Fester has completed all tasks. They leave the zoo and lock up for the night
 
-Would you like to spend another day at the zoo? reply yes or no
+
+
+
 Welcome to the Zoo! It is now 8:00 AM on day: 7!
 
 Fester the Zookeeper arrives at Zoo on day 7 at 8:00 AM
@@ -2304,13 +2272,11 @@ Christie the clownfish nibbles on the fish food the zookeeper gives it
 Fester lets the animals roam free at 2:30 PM
 
 Fester goes to exercise Darren the dog
-Darren the dog eagerly digs not caring what the zookeeper is telling it
+Darren ignores the roam command and eagerly digs
 The zookeeper will need to try again!
 Darren the dog runs around its enclosure
 
 Fester goes to exercise Dhalia the dog
-Dhalia the dog eagerly digs not caring what the zookeeper is telling it
-The zookeeper will need to try again!
 Dhalia the dog runs around its enclosure
 
 Fester goes to exercise Willy the wolf
@@ -2341,15 +2307,23 @@ Fester goes to exercise Ryan the rhino
 Ryan the rhino defensively runs around its enclosure wary of the Zookeeper
 
 Fester goes to exercise Rachel the rhino
+Rachel the rhino ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
+Rachel the rhino ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
 Rachel the rhino defensively runs around its enclosure wary of the Zookeeper
 
 Fester goes to exercise Ella the elephant
+Ella the elephant ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
+Ella the elephant ignores the command to roam and charges at the zookeeper
+The zookeeper will need to try again!
 Ella the elephant slowly walks around its enclosure looking to play with its friends
 
 Fester goes to exercise Eddie the elephant
-Eddie the elephant charges at the zookeeper
+Eddie the elephant ignores the command to roam and charges at the zookeeper
 The zookeeper will need to try again!
-Eddie the elephant charges at the zookeeper
+Eddie the elephant ignores the command to roam and charges at the zookeeper
 The zookeeper will need to try again!
 Eddie the elephant slowly walks around its enclosure looking to play with its friends
 
@@ -2357,14 +2331,6 @@ Fester goes to exercise Hilda the hippo
 Hilda the hippo slowly wades in the water
 
 Fester goes to exercise Harry the hippo
-Harry the hippo charges at the zookeeper
-The zookeeper will need to try again!
-Harry the hippo charges at the zookeeper
-The zookeeper will need to try again!
-Harry the hippo charges at the zookeeper
-The zookeeper will need to try again!
-Harry the hippo charges at the zookeeper
-The zookeeper will need to try again!
 Harry the hippo slowly wades in the water
 
 Fester goes to exercise Sally the shark
@@ -2394,37 +2360,39 @@ Fester goes to put Wanda the wolf to sleep
 Wanda the wolf goes to sleep with it's friends dreaming happy dreams
 
 Fester goes to put Cleo the cat to sleep
-Cleo The cat walks gracefully around its enclosure
-The zookeeper will need to try again
-Cleo the cat purrs quietly at the zookeeper
-The zookeeper needs to try again
-Cleo the cat purrs quietly at the zookeeper
-The zookeeper needs to try again
 Cleo the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Carlos the cat to sleep
-Carlos The cat walks gracefully around its enclosure
+In defiance of the zookeepers command to sleep, Carlos the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Carlos The cat walks gracefully around its enclosure
 The zookeeper will need to try again
-Carlos The cat walks gracefully around its enclosure
-The zookeeper will need to try again
+In defiance of the zookeepers command to sleep, Carlos the cat purrs quietly at the zookeeper
+The zookeeper needs to try again
 Carlos the cat finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Lex the lion to sleep
-Lex the lion roars at the zookeeper
+In defiance of the zookeepers command to sleep, Lex the lion roars at the zookeeper
 The zookeeper needs to try again
-Lex the lion roars at the zookeeper
+In defiance of the zookeepers command to sleep, Lex the lion roars at the zookeeper
 The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Lex the lion roars at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Lex The lion walks gracefully around its enclosure
+The zookeeper will need to try again
 Lex the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Leah the lion to sleep
 Leah the lion finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Terry the tiger to sleep
-Terry the tiger growls at the zookeeper
-The zookeeper needs to try again
 Terry the tiger finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Thalia the tiger to sleep
+In defiance of the zookeepers command to sleep, Thalia the tiger growls at the zookeeper
+The zookeeper needs to try again
+In defiance of the zookeepers command to sleep, Thalia the tiger growls at the zookeeper
+The zookeeper needs to try again
 Thalia the tiger finds a nice spot, gets in a cozy position and falls asleep alone
 
 Fester goes to put Ryan the rhino to sleep
@@ -2460,4 +2428,6 @@ Christie the clownfish settles down in its anemone and falls asleep
 
 Fester has completed all tasks. They leave the zoo and lock up for the night
 
-Would you like to spend another day at the zoo? reply yes or no
+
+
+

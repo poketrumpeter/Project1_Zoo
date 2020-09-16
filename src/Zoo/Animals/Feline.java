@@ -70,6 +70,8 @@ abstract public class Feline extends DefaultAnimal{
         if (felineChoice <= 2){ //0, 1, or 2 for a 30% probability of roaming
 
             //Feline Roams, Misbehaving
+            System.out.print("In defiance of the zookeepers command to sleep, ");
+
             Roam();
 
             System.out.println("The zookeeper will need to try again");
@@ -80,6 +82,8 @@ abstract public class Feline extends DefaultAnimal{
         else if(felineChoice <= 5){ //3, 4 or 5 in order to have 30% chance of making noise
 
             //Feline makes noise, Misbehaving
+            System.out.print("In defiance of the zookeepers command to sleep, ");
+
             makeNoise();
 
             System.out.println("The zookeeper needs to try again");

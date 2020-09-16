@@ -36,7 +36,7 @@ public class Dog extends Canine {
 
     public void Dig(){
         StringBuffer dig = new StringBuffer(getName());
-        dig.append(" the dog eagerly digs not caring what the zookeeper is telling it");
+        dig.append(" ignores the roam command and eagerly digs");
 
         System.out.println(dig);
     }

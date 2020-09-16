@@ -12,6 +12,9 @@ public class Zoo {
 
     public static void main(String[] args) throws FileNotFoundException { //Main Zoo Implementation for Project 1
 
+        //For outputing to a file I refered to this resource
+        //https://www.dev2qa.com/how-to-write-console-output-to-text-file-in-java/
+
         PrintStream originalOutput = System.out;
         PrintStream fileOutput = new PrintStream("./dayatthezoo.out");
 
@@ -127,6 +130,9 @@ public class Zoo {
         System.out.println("how many Days would you like to spend at the zoo?");
         originalOutput.println("how many days");
 
+        //For taking in user Input, i referred to this source
+        //https://www.w3schools.com/java/java_user_input.asp
+
         Scanner input = new Scanner(System.in);
 
         int days = input.nextInt();
@@ -197,6 +203,9 @@ public class Zoo {
             System.out.println(zooKeeper.getName() + " has completed all tasks. They leave the zoo and " +
                     "lock up for the night");
 
+            System.out.println();
+            System.out.println();
+            System.out.println();
             System.out.println();
 
             //Ask user if they would like to go to the zoo another day

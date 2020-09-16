@@ -42,7 +42,7 @@ abstract public class Pachyderm extends DefaultAnimal{
         StringBuffer charge = new StringBuffer(getName());
         charge.append(" the ");
         charge.append(getSpecies());
-        charge.append(" charges at the zookeeper");
+        charge.append(" ignores the command to roam and charges at the zookeeper");
 
         System.out.println(charge);
     }
