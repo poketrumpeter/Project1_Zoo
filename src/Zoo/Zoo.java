@@ -34,7 +34,7 @@ public class Zoo {
         ArrayList<Animal> animals = new ArrayList<>();
 
 
-        System.out.println("Receiving Animal for the new Zoo");
+        System.out.println("Receiving Animals for the new Zoo");
         System.out.println();
 
         /*
